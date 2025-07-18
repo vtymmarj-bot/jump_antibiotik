@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
+const VERIFY_TOKEN = "antibiotic-bot";
 const PAGE_TOKEN = process.env.PAGE_TOKEN;
 const axios = require('axios');
 
